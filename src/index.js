@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 
-app.use(cors('https://alcatraz-front.herokuapp.com'));
+app.use(cors('https://alcatraz-front.herokuapp.com/'));
 
 // Routes
 app.use(require('./routes/index'));
