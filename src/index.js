@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.use(cors());
+app.setHeader("Access-Control-Allow-Origin", "*")
 
 // Routes
 app.use(require('./routes/index'));
